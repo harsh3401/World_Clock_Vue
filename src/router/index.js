@@ -13,6 +13,7 @@ const routes = [
     path: "/select",
     name: "SelectCity",
     component: Selector,
+    props: true,
   },
   {
     path: "/:catchAll(.*)",
@@ -23,6 +24,7 @@ const routes = [
     path: "/time",
     name: "Time",
     component: Time,
+    props: true,
   },
 ];
 
